@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { fetchTasks, addTask, deleteTask, toggleCompleted } from "./operations";
+import { fetchTasks, addTask, deleteTask, toggleCompleted } from "./tasksOperations";
 
 const handlePending = state => {
   state.isLoading = true;
